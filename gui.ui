@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>455</width>
+    <height>156</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>541</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="coinLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Segoe Fluent Icons&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="priceLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Segoe Fluent Icons&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>301</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Segoe Fluent Icons&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Choose Cryptocoin</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>BTC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>ETH</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BNB</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Doge</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SOL</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>XRP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="priceButton">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt&quot;Segoe Fluent Icons&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Get Price</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
