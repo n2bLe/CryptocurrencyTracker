@@ -28,7 +28,7 @@ class Window(QWidget):
         
             item = self.comboBox.currentText()
             headers = {
-                'X-CMC_PRO_API_KEY': 'db940677-8bd5-4993-82a9-3b6bc9082a95',
+                '',
                 'Accepts' : 'application/json'
             }
             params = {
